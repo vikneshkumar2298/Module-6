@@ -26,11 +26,11 @@ class Shark(Fish):
 obj_goldfish = Fish()
 obj_hammerhead = Shark()
 
-for fish in (obj_goldfish, obj_hammerhead):
-    fish.type()
+for x in (obj_goldfish, obj_hammerhead):
+    x.type()
 ```
 ## OUTPUT
-![WhatsApp Image 2025-10-22 at 08 43 06_d2aceda0](https://github.com/user-attachments/assets/a32166a6-0b38-43f8-a801-d4dd5c4d0702)
+<img width="530" height="208" alt="image" src="https://github.com/user-attachments/assets/adcb8598-a762-4657-a27f-3d14bbe9468f" />
 
 ## RESULT
-thus the program have been executed successfully.
+The program successfully demonstrated method overriding. The Fish object printed "fish" and the Shark object printed "shark".
